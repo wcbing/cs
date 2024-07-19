@@ -1,0 +1,1018 @@
+{
+    "title": "",
+    "type": "text/x-moz-place-container",
+    "root": "placesRoot",
+    "children": [
+        {
+            "title": "menu",
+            "type": "text/x-moz-place-container",
+            "root": "bookmarksMenuFolder",
+            "children": [
+                {
+                    "title": "通用学习资源",
+                    "type": "text/x-moz-place-container",
+                    "children": [
+                        {
+                            "title": "导航类",
+                            "type": "text/x-moz-place-container",
+                            "children": [
+                                {
+                                    "title": "【计算机科学速成课】- 中字|入门科普，推荐",
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://www.bilibili.com/video/BV1EW411u7th/"
+                                },
+                                {
+                                    "title": "CS培养计划|网易云课堂",
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://study.163.com/curricula/cs.htm"
+                                },
+                                {
+                                    "title": "TeachYourselfCS-CN",
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://github.com/izackwu/TeachYourselfCS-CN/blob/master/TeachYourselfCS-CN.md"
+                                },
+                                {
+                                    "title": "CS自学指南|国外CS课程为主",
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://csdiy.wiki/"
+                                },
+                                {
+                                    "title": "Road 2 Coding",
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://www.r2coding.com/"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "视频类",
+                            "type": "text/x-moz-place-container",
+                            "children": [
+                                {
+                                    "title": "哔哩哔哩",
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://www.bilibili.com/"
+                                },
+                                {
+                                    "title": "中国大学MOOC",
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://www.icourse163.org/"
+                                },
+                                {
+                                    "title": "网易云课堂",
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://study.163.com/"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "文本、交互类",
+                            "type": "text/x-moz-place-container",
+                            "children": [
+                                {
+                                    "title": "Microsoft Learn|巨硬的教程",
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://docs.microsoft.com/zh-cn/learn/browse/"
+                                },
+                                {
+                                    "title": "廖雪峰的网站",
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://www.liaoxuefeng.com/"
+                                },
+                                {
+                                    "title": "菜鸟教程",
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://www.runoob.com/"
+                                },
+                                {
+                                    "title": "菜鸟教程|模仿前一个？",
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://www.cainiaojc.com/"
+                                },
+                                {
+                                    "title": "蓝桥云课|有实操",
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://www.lanqiao.cn/"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "书籍、文档类",
+                            "type": "text/x-moz-place-container",
+                            "children": [
+                                {
+                                    "title": "Google Style Guides|代码风格",
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://google.github.io/styleguide/"
+                                },
+                                {
+                                    "title": "DevDocs|文档合集，支持PWA",
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://devdocs.io/"
+                                },
+                                {
+                                    "title": "书-天翼云盘",
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://cloud.189.cn/web/share?code=zM3A3aui26V3%EF%BC%88%E8%AE%BF%E9%97%AE%E7%A0%81%EF%BC%9Aoes5%EF%BC%89"
+                                },
+                                {
+                                    "title": "书-阿里云盘",
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://www.aliyundrive.com/s/evCdWGM15ha"
+                                },
+                                {
+                                    "title": "Doocs|技术类书籍推荐",
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://doocs.gitee.io/technical-books"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "社区",
+                            "type": "text/x-moz-place-container",
+                            "children": [
+                                {
+                                    "title": "GitHub|不用多说",
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://github.com/"
+                                },
+                                {
+                                    "title": "Gitee|呃，合法开源？",
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://gitee.com/"
+                                },
+                                {
+                                    "title": "知乎",
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://www.zhihu.com/"
+                                },
+                                {
+                                    "title": "Stack Overflow|程序员问答社区",
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://stackoverflow.com/"
+                                },
+                                {
+                                    "title": "CSDN|鱼鱼鱼鱼龙混杂",
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://www.csdn.net/"
+                                },
+                                {
+                                    "title": "维基百科",
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://zh.wikipedia.org/wiki/"
+                                },
+                                {
+                                    "title": "维基百科镜像站",
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://www.iwiki.icu/"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "编程开发",
+                    "type": "text/x-moz-place-container",
+                    "children": [
+                        {
+                            "title": "C & C++",
+                            "type": "text/x-moz-place-container",
+                            "children": [
+                                {
+                                    "title": "🔍文档手册",
+                                    "type": "text/x-moz-place-container",
+                                    "children": [
+                                        {
+                                            "title": "cppreference 中文",
+                                            "type": "text/x-moz-place",
+                                            "uri": "https://zh.cppreference.com/"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "📚图书教程",
+                                    "type": "text/x-moz-place-container",
+                                    "children": [
+                                        {
+                                            "title": "阮一峰的C语言教程网盘内书籍",
+                                            "type": "text/x-moz-place",
+                                            "uri": "https://wangdoc.com/clang/"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "🛠开发工具",
+                                    "type": "text/x-moz-place-container",
+                                    "children": [
+                                        {
+                                            "title": "「VS Code」C/C++",
+                                            "type": "text/x-moz-place",
+                                            "uri": "https://wcbing.top/vscode/c-cpp/"
+                                        },
+                                        {
+                                            "title": "小熊猫C++",
+                                            "type": "text/x-moz-place",
+                                            "uri": "https://royqh1979.gitee.io/redpandacpp/"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "✏刷题练习",
+                                    "type": "text/x-moz-place-container",
+                                    "children": [
+                                        {
+                                            "title": "C/C++风格LeetCode题解",
+                                            "type": "text/x-moz-place",
+                                            "uri": "https://github.com/begeekmyfriend/leetcode"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Java",
+                            "type": "text/x-moz-place-container",
+                            "children": [
+                                {
+                                    "title": "🔍文档手册",
+                                    "type": "text/x-moz-place-container",
+                                    "children": [
+                                        {
+                                            "title": "JDK11 中文API  菜鸟工具",
+                                            "type": "text/x-moz-place",
+                                            "uri": "https://www.runoob.com/manual/jdk11api/"
+                                        },
+                                        {
+                                            "title": "JDK8 中文API",
+                                            "type": "text/x-moz-place",
+                                            "uri": "https://www.matools.com/api/java8"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "🛠开发工具",
+                                    "type": "text/x-moz-place-container",
+                                    "children": [
+                                        {
+                                            "title": "JDK下载安装",
+                                            "type": "text/x-moz-place",
+                                            "uri": "https://wcbing.top/dev/jdk"
+                                        },
+                                        {
+                                            "title": "「VS Code」Java SE",
+                                            "type": "text/x-moz-place",
+                                            "uri": "https://wcbing.top/vscode/java_se"
+                                        },
+                                        {
+                                            "title": "IntelliJ IDEA推荐使用",
+                                            "type": "text/x-moz-place",
+                                            "uri": "https://www.jetbrains.com/zh-cn/idea/"
+                                        },
+                                        {
+                                            "title": "Toolbox安装",
+                                            "type": "text/x-moz-place",
+                                            "uri": "https://www.jetbrains.com/zh-cn/toolbox-app/"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "📚图书教程",
+                                    "type": "text/x-moz-place-container",
+                                    "children": [
+                                        {
+                                            "title": "How2J 的 Java教程",
+                                            "type": "text/x-moz-place",
+                                            "uri": "https://how2j.cn/"
+                                        },
+                                        {
+                                            "title": "Java基础知识库",
+                                            "type": "text/x-moz-place",
+                                            "uri": "https://javadocs.zkeq.xyz/"
+                                        },
+                                        {
+                                            "title": "柏码 知识库",
+                                            "type": "text/x-moz-place",
+                                            "uri": "https://itbaima.net/document"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Python",
+                            "type": "text/x-moz-place-container",
+                            "children": [
+                                {
+                                    "title": "🔍文档手册",
+                                    "type": "text/x-moz-place-container",
+                                    "children": [
+                                        {
+                                            "title": "Python官方文档",
+                                            "type": "text/x-moz-place",
+                                            "uri": "https://docs.python.org/zh-cn/"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "🛠开发工具",
+                                    "type": "text/x-moz-place-container",
+                                    "children": [
+                                        {
+                                            "title": "「VS Code」Python",
+                                            "type": "text/x-moz-place",
+                                            "uri": "https://wcbing.top/vscode/python/"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "✏刷题练习",
+                                    "type": "text/x-moz-place-container",
+                                    "children": [
+                                        {
+                                            "title": "Python Cookbook",
+                                            "type": "text/x-moz-place",
+                                            "uri": "https://python3-cookbook.readthedocs.io/zh_CN/latest/index.html"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Go",
+                            "type": "text/x-moz-place-container",
+                            "children": [
+                                {
+                                    "title": "📚图书教程",
+                                    "type": "text/x-moz-place-container",
+                                    "children": [
+                                        {
+                                            "title": "Go语言圣经-中文版",
+                                            "type": "text/x-moz-place",
+                                            "uri": "https://gopl-zh.github.io/"
+                                        },
+                                        {
+                                            "title": "Go入门指南",
+                                            "type": "text/x-moz-place",
+                                            "uri": "https://github.com/unknwon/the-way-to-go_ZH_CN"
+                                        },
+                                        {
+                                            "title": "Go的开源图书",
+                                            "type": "text/x-moz-place",
+                                            "uri": "https://books.studygolang.com/"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "✏刷题练习",
+                                    "type": "text/x-moz-place-container",
+                                    "children": [
+                                        {
+                                            "title": "LeetCode Cookbook",
+                                            "type": "text/x-moz-place",
+                                            "uri": "https://books.halfrost.com/leetcode/"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "Rust",
+                            "type": "text/x-moz-place-container",
+                            "children": [
+                                {
+                                    "title": "📚图书教程",
+                                    "type": "text/x-moz-place-container",
+                                    "children": [
+                                        {
+                                            "title": "Rust程序设计语言",
+                                            "type": "text/x-moz-place",
+                                            "uri": "https://kaisery.github.io/trpl-zh-cn/"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "前端",
+                            "type": "text/x-moz-place-container",
+                            "children": [
+                                {
+                                    "title": "🔍文档手册",
+                                    "type": "text/x-moz-place-container",
+                                    "children": [
+                                        {
+                                            "title": "W3C官方",
+                                            "type": "text/x-moz-place",
+                                            "uri": "https://www.w3.org/"
+                                        },
+                                        {
+                                            "title": "MDN-MozillaWeb学习和API文档",
+                                            "type": "text/x-moz-place",
+                                            "uri": "https://developer.mozilla.org/zh-CN/docs/Web"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "📚图书教程",
+                                    "type": "text/x-moz-place-container",
+                                    "children": [
+                                        {
+                                            "title": "w3school",
+                                            "type": "text/x-moz-place",
+                                            "uri": "https://www.w3school.com.cn/"
+                                        },
+                                        {
+                                            "title": "前端导航",
+                                            "type": "text/x-moz-place",
+                                            "uri": "https://ailongmiao.com/web/"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "算法与竞赛",
+                    "type": "text/x-moz-place-container",
+                    "children": [
+                        {
+                            "title": "数据结构与算法学习",
+                            "type": "text/x-moz-place-container",
+                            "children": [
+                                {
+                                    "title": "《Hello 算法》",
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://www.hello-algo.com/"
+                                },
+                                {
+                                    "title": "《数据结构（C++语言版）》",
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://dsa.cs.tsinghua.edu.cn/~deng/ds/dsacpp/"
+                                },
+                                {
+                                    "title": "OI Wiki",
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://oi-wiki.org/"
+                                },
+                                {
+                                    "title": "必须掌握哪些算法？ - 知乎",
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://www.zhihu.com/question/23148377/answer/907915556"
+                                },
+                                {
+                                    "title": "数据结构和算法可视化",
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://visualgo.net/zh"
+                                },
+                                {
+                                    "title": "数据结构可视化",
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://www.cs.usfca.edu/~galles/visualization/Algorithms.html"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "OJ题库",
+                            "type": "text/x-moz-place-container",
+                            "children": [
+                                {
+                                    "title": "PTA>比较简单",
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://pintia.cn/"
+                                },
+                                {
+                                    "title": "牛客竞赛",
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://ac.nowcoder.com/"
+                                },
+                                {
+                                    "title": "牛客题库OJ",
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://www.nowcoder.com/exam/oj"
+                                },
+                                {
+                                    "title": "洛谷",
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://www.luogu.com.cn/"
+                                },
+                                {
+                                    "title": "Codeforces>英文俄站访问慢",
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://codeforces.com/"
+                                },
+                                {
+                                    "title": "力扣 LeetCode>新手勿入",
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://leetcode.cn/problemset/all/"
+                                },
+                                {
+                                    "title": "LintCode 炼码",
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://www.lintcode.com/"
+                                },
+                                {
+                                    "title": "CodeTop企业题库",
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://codetop.cc/"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "刷题题解",
+                            "type": "text/x-moz-place-container",
+                            "children": [
+                                {
+                                    "title": "LeetCode题解>Doocs",
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://doocs.gitee.io/leetcode/"
+                                },
+                                {
+                                    "title": "参考答案查询>九章算法",
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://www.jiuzhang.com/solutions/"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "竞赛认证",
+                            "type": "text/x-moz-place-container",
+                            "children": [
+                                {
+                                    "title": "ICPC",
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://icpc.global/"
+                                },
+                                {
+                                    "title": "ICPC北京",
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://icpc.pku.edu.cn/"
+                                },
+                                {
+                                    "title": "CCF 竞赛>NOI、CCSP等",
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://www.ccf.org.cn/Activities/Contests/"
+                                },
+                                {
+                                    "title": "高校计算机大赛>包括天梯赛等",
+                                    "type": "text/x-moz-place",
+                                    "uri": "http://www.c4best.cn/"
+                                },
+                                {
+                                    "title": "蓝桥杯>圈钱杯",
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://dasai.lanqiao.cn/"
+                                },
+                                {
+                                    "title": "CCF认证>CSP等",
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://www.ccf.org.cn/Activities/Certification/"
+                                },
+                                {
+                                    "title": "计算机等级考试>计算机的谁考这",
+                                    "type": "text/x-moz-place",
+                                    "uri": "http://ncre.neea.edu.cn/"
+                                },
+                                {
+                                    "title": "软考",
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://www.ruankao.org.cn/"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "CTF",
+                            "type": "text/x-moz-place-container",
+                            "children": [
+                                {
+                                    "title": "CTF Wiki",
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://ctf-wiki.org/"
+                                },
+                                {
+                                    "title": "CTF竞赛权威指南",
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://firmianay.gitbook.io/ctf-all-in-one/"
+                                },
+                                {
+                                    "title": "云演",
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://www.yunyansec.com/"
+                                },
+                                {
+                                    "title": "攻防世界",
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://adworld.xctf.org.cn/"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "编程工具",
+                    "type": "text/x-moz-place-container",
+                    "children": [
+                        {
+                            "title": "在线工具",
+                            "type": "text/x-moz-place-container",
+                            "children": [
+                                {
+                                    "title": "Codespaces>Github",
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://github.com/codespaces"
+                                },
+                                {
+                                    "title": "Cloud Studio>腾讯云旗下",
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://cloudstudio.net/"
+                                },
+                                {
+                                    "title": "GDB online Debugger>在线GDB",
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://www.onlinegdb.com/"
+                                },
+                                {
+                                    "title": "Compiler Explorer>代码转汇编",
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://godbolt.org/"
+                                },
+                                {
+                                    "title": "代码可视化",
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://pythontutor.com/"
+                                },
+                                {
+                                    "title": "在线格式化",
+                                    "type": "text/x-moz-place",
+                                    "uri": "http://web.chacuo.net/formathtml"
+                                },
+                                {
+                                    "title": "菜鸟工具",
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://c.runoob.com/"
+                                },
+                                {
+                                    "title": "在线工具",
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://tool.lu/c/developer/"
+                                },
+                                {
+                                    "title": "孟坤工具箱",
+                                    "type": "text/x-moz-place",
+                                    "uri": "http://tool.mkblog.cn/"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "常用（CLI）工具",
+                            "type": "text/x-moz-place-container",
+                            "children": [
+                                {
+                                    "title": "计算机教育中缺失的一课>Shell、Vim、Git…",
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://missing-semester-cn.github.io/"
+                                },
+                                {
+                                    "title": "Git",
+                                    "type": "text/x-moz-place-container",
+                                    "children": [
+                                        {
+                                            "title": "版本控制(Git)",
+                                            "type": "text/x-moz-place",
+                                            "uri": "https://missing-semester-cn.github.io/2020/version-control/"
+                                        },
+                                        {
+                                            "title": "Pro Git-Book>Git官网电子书",
+                                            "type": "text/x-moz-place",
+                                            "uri": "https://git-scm.com/book/zh/v2"
+                                        },
+                                        {
+                                            "title": "Git 设置代理",
+                                            "type": "text/x-moz-place",
+                                            "uri": "https://ericclose.github.io/git-proxy-config.html"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Linux (CLI) tools",
+                                    "type": "text/x-moz-place-container",
+                                    "children": [
+                                        {
+                                            "title": "Linux 基础入门>蓝桥云课实操",
+                                            "type": "text/x-moz-place",
+                                            "uri": "https://www.lanqiao.cn/courses/1/"
+                                        },
+                                        {
+                                            "title": "Linux就该这么学>官网在线电子书",
+                                            "type": "text/x-moz-place",
+                                            "uri": "https://www.linuxprobe.com/basic-learning-00.html"
+                                        },
+                                        {
+                                            "title": "鸟哥Linux命令大全",
+                                            "type": "text/x-moz-place",
+                                            "uri": "https://man.niaoge.com/"
+                                        },
+                                        {
+                                            "title": "Linux工具快速教程",
+                                            "type": "text/x-moz-place",
+                                            "uri": "https://linuxtools-rst.readthedocs.io/zh_CN/latest/index.html"
+                                        },
+                                        {
+                                            "title": "Linux命令大全",
+                                            "type": "text/x-moz-place",
+                                            "uri": "https://www.linuxcool.com/"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Docker / K8S",
+                                    "type": "text/x-moz-place-container",
+                                    "children": [
+                                        {
+                                            "title": "Docker Documentation>官方文档，纯英",
+                                            "type": "text/x-moz-place",
+                                            "uri": "https://docs.docker.com/"
+                                        },
+                                        {
+                                            "title": "《Docker从入门到实践》",
+                                            "type": "text/x-moz-place",
+                                            "uri": "https://yeasy.gitbook.io/docker_practice/"
+                                        },
+                                        {
+                                            "title": "《Docker从入门到实践》镜像",
+                                            "type": "text/x-moz-place",
+                                            "uri": "https://books.studygolang.com/docker_practice/"
+                                        },
+                                        {
+                                            "title": "从Docker到Kubernetes进阶>在线电子书",
+                                            "type": "text/x-moz-place",
+                                            "uri": "https://www.qikqiak.com/k8s-book/"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "文本、写作",
+                            "type": "text/x-moz-place-container",
+                            "children": [
+                                {
+                                    "title": "文本、代码分享",
+                                    "type": "text/x-moz-place-container",
+                                    "children": [
+                                        {
+                                            "title": "PrivateBin>文本/代码分享",
+                                            "type": "text/x-moz-place",
+                                            "uri": "https://privatebin.net/"
+                                        },
+                                        {
+                                            "title": "PrivateBin>Appinn提供",
+                                            "type": "text/x-moz-place",
+                                            "uri": "https://b.appinn.net/"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "正则表达式",
+                                    "type": "text/x-moz-place-container",
+                                    "children": [
+                                        {
+                                            "title": "regex101",
+                                            "type": "text/x-moz-place",
+                                            "uri": "https://regex101.com/"
+                                        },
+                                        {
+                                            "title": "RegExr（中文）>RegExr镜像",
+                                            "type": "text/x-moz-place",
+                                            "uri": "https://regexr-cn.com/"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Markdown、LaTeX公式",
+                                    "type": "text/x-moz-place-container",
+                                    "children": [
+                                        {
+                                            "title": "Markdown 教程>国内中文教程",
+                                            "type": "text/x-moz-place",
+                                            "uri": "https://markdown.com.cn/"
+                                        },
+                                        {
+                                            "title": "Markdown Guide",
+                                            "type": "text/x-moz-place",
+                                            "uri": "https://www.markdownguide.org/"
+                                        },
+                                        {
+                                            "title": "Obsitian>编辑器",
+                                            "type": "text/x-moz-place",
+                                            "uri": "https://obsidian.md/"
+                                        },
+                                        {
+                                            "title": "StackEdit>在线编辑器",
+                                            "type": "text/x-moz-place",
+                                            "uri": "https://stackedit.io/app"
+                                        },
+                                        {
+                                            "title": "StackEdit>中文版",
+                                            "type": "text/x-moz-place",
+                                            "uri": "https://stackedit.cn/app"
+                                        },
+                                        {
+                                            "title": "LaTeX公式>帮助文档",
+                                            "type": "text/x-moz-place",
+                                            "uri": "https://www.latexlive.com/help"
+                                        },
+                                        {
+                                            "title": "在线LaTeX公式编辑器",
+                                            "type": "text/x-moz-place",
+                                            "uri": "https://www.latexlive.com/"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "title": "绘图",
+                            "type": "text/x-moz-place-container",
+                            "children": [
+                                {
+                                    "title": "流程图等",
+                                    "type": "text/x-moz-place-container",
+                                    "children": [
+                                        {
+                                            "title": "Draw.io>流程图，强烈推荐",
+                                            "type": "text/x-moz-place",
+                                            "uri": "https://app.diagrams.net/"
+                                        },
+                                        {
+                                            "title": "Draw.io 教学>B站，UP台湾人",
+                                            "type": "text/x-moz-place",
+                                            "uri": "https://www.bilibili.com/video/BV1Tu411U7v7"
+                                        },
+                                        {
+                                            "title": "Draw.io画E-R图>还支持SQL导入",
+                                            "type": "text/x-moz-place",
+                                            "uri": "https://www.cnblogs.com/taylorshi/p/13662991.html"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "思维导图",
+                                    "type": "text/x-moz-place-container",
+                                    "children": [
+                                        {
+                                            "title": "XMind>免费的够用了",
+                                            "type": "text/x-moz-place",
+                                            "uri": "https://xmind.cn/"
+                                        },
+                                        {
+                                            "title": "Freeplane>FreeMind继任者",
+                                            "type": "text/x-moz-place",
+                                            "uri": "https://sourceforge.net/projects/freeplane/"
+                                        },
+                                        {
+                                            "title": "百度脑图`.km`>推荐，已开源",
+                                            "type": "text/x-moz-place",
+                                            "uri": "https://naotu.baidu.com/"
+                                        },
+                                        {
+                                            "title": "幕布>大纲笔记",
+                                            "type": "text/x-moz-place",
+                                            "uri": "https://mubu.com/"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "文本绘图",
+                                    "type": "text/x-moz-place-container",
+                                    "children": [
+                                        {
+                                            "title": "Mermaid",
+                                            "type": "text/x-moz-place",
+                                            "uri": "https://mermaid.js.org/"
+                                        },
+                                        {
+                                            "title": "PlantUML",
+                                            "type": "text/x-moz-place",
+                                            "uri": "https://plantuml.com/zh/"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "其他杂项",
+                    "type": "text/x-moz-place-container",
+                    "children": [
+                        {
+                            "title": "提问的指挥（简中）",
+                            "type": "text/x-moz-place",
+                            "uri": "https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/main/README-zh_CN.md"
+                        },
+                        {
+                            "title": "提问的指挥（简中）>翻译镜像",
+                            "type": "text/x-moz-place",
+                            "uri": "https://ask.icodeq.com/"
+                        },
+                        {
+                            "title": "学术",
+                            "type": "text/x-moz-place-container",
+                            "children": [
+                                {
+                                    "title": "维基百科",
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://zh.wikipedia.org/wiki/"
+                                },
+                                {
+                                    "title": "维基百科镜像站",
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://www.iwiki.icu/"
+                                },
+                                {
+                                    "title": "思谋学术导航>Sci-Hub等",
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://ac.scmor.com/"
+                                },
+                                {
+                                    "title": "晨曦数字图书馆>低调使用",
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://31sanyi.neocities.org/user"
+                                },
+                                {
+                                    "title": "ZLib TG频道>ZLib 官方",
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://t.me/zlibrary_official"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "AI大模型",
+                            "type": "text/x-moz-place-container",
+                            "children": [
+                                {
+                                    "title": "ChatGPT",
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://chat.openai.com/"
+                                },
+                                {
+                                    "title": "Google Gemini",
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://gemini.google.com/chat"
+                                },
+                                {
+                                    "title": "国内AI大模型集",
+                                    "typeCode": 1,
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://img.ithome.com/app/aichat/index.html"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "硬件信息",
+                            "type": "text/x-moz-place-container",
+                            "children": [
+                                {
+                                    "title": "CPU天梯图>极速空间",
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://www.365pcbuy.com/article-411.html"
+                                },
+                                {
+                                    "title": "显卡天梯图>极速空间",
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://www.365pcbuy.com/article-398.html"
+                                },
+                                {
+                                    "title": "手机CPU天梯图>驱动之家",
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://www.mydrivers.com/zhuanti/tianti/01/"
+                                },
+                                {
+                                    "title": "移动芯片排行>极客湾",
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://www.socpk.com/"
+                                }
+                            ]
+                        },
+                        {
+                            "title": "其他",
+                            "type": "text/x-moz-place-container",
+                            "children": [
+                                {
+                                    "title": "大数据导航",
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://hao.199it.com/"
+                                },
+                                {
+                                    "title": "程序员容易发音错误的单词",
+                                    "type": "text/x-moz-place",
+                                    "uri": "https://github.com/shimohq/chinese-programmer-wrong-pronunciation"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="h-full dark:pintree-bg-gray-900 bg-white">
+<html lang="zh-CN" class="h-full dark:pintree-bg-gray-900 bg-white">
 
 <head>
   <meta charset="UTF-8">
@@ -20,29 +20,6 @@
       y = l.getElementsByTagName(r)[0]; y.parentNode.insertBefore(t, y);
     })(window, document, "clarity", "script", "n75ecz0sud");
   </script>
-  <!-- Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-P1JF3QTQ79"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-    gtag('config', 'G-P1JF3QTQ79');
-  </script>
-
-  <!-- Facebook Meta Tags -->
-  <meta property="og:url" content="https://www.pintree.io">
-  <meta property="og:type" content="website">
-  <meta property="og:title" content="Pintree">
-  <meta property="og:description" content="Managing and Exporting your Bookmarks into a Website">
-  <meta property="og:image" content="https://app.pintree.io/assets/og.png">
-
-  <!-- Twitter Meta Tags -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta property="twitter:domain" content="Pintree.io">
-  <meta property="twitter:url" content="https://www.pintree.io">
-  <meta name="twitter:title" content="Pintree">
-  <meta name="twitter:description" content="Managing and Exporting your Bookmarks into a Website">
-  <meta name="twitter:image" content="https://app.pintree.io/assets/og.png">
 
   <!-- Favicon -->
   <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
@@ -52,22 +29,6 @@
 
   <!-- Stylesheet -->
   <link rel="stylesheet" href="css/tailwind.css">
-
-  <!-- Structured Data for SEO -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "WebSite",
-    "url": "https://www.pintree.io",
-    "name": "Pintree",
-    "description": "Managing and Exporting your Bookmarks into a Website",
-    "potentialAction": {
-      "@type": "SearchAction",
-      "target": "https://www.pintree.io/search?q={search_term_string}",
-      "query-input": "required name=search_term_string"
-    }
-  }
-  </script>
 </head>
 
 <body class="h-full dark:pintree-bg-gray-900 bg-white">
@@ -268,10 +229,10 @@
 
     // Search functionality
     function searchBookmarks(query) {
-      fetch('json/pintree.json')
+      fetch('json/data.json')
         .then(response => response.json())
         .then(data => {
-          const results = searchInData(data, query.toLowerCase());
+          const results = searchInData(data.children, query.toLowerCase());
           renderBookmarks(results, [{ title: 'Search Results', children: results }]);
         })
         .catch(error => console.error('Error searching bookmarks:', error));
@@ -300,10 +261,10 @@
 
     // Clear search results and reset UI
     function clearSearchResults() {
-      fetch('json/pintree.json')
+      fetch('json/data.json')
         .then(response => response.json())
         .then(data => {
-          const secondLayer = data[0].children;
+          const secondLayer = data.children[0].children;
           renderNavigation(secondLayer, document.getElementById('navigation'));
           renderBookmarks(secondLayer, [{ title: 'Bookmark', children: secondLayer }]);
           document.getElementById('searchInput').value = '';
@@ -315,10 +276,10 @@
     document.getElementById('clearSearchButton').addEventListener('click', clearSearchResults);
 
     function searchBookmarks(query) {
-      fetch('json/pintree.json')
+      fetch('json/data.json')
         .then(response => response.json())
         .then(data => {
-          const results = searchInData(data, query.toLowerCase());
+          const results = searchInData(data.children, query.toLowerCase());
           renderBookmarks(results, [{ title: 'Search Results', children: results }]);
           document.getElementById('clearSearchButton').classList.remove('hidden');
         })
@@ -326,20 +287,10 @@
     }
 
     // Create bookmark card element
-    function createCard(title, url, icon) {
+    function createCard(title, url) {
       const card = document.createElement('div');
       card.className = 'cursor-pointer flex items-center hover:shadow-sm transition-shadow p-4 bg-white shadow-sm ring-1 ring-gray-900/5 dark:pintree-ring-gray-800 rounded-lg hover:bg-gray-100 dark:pintree-bg-gray-900 dark:hover:pintree-bg-gray-800';
       card.onclick = () => window.open(url, '_blank'); // Make the whole card clickable
-
-      const cardIcon = document.createElement('img');
-      cardIcon.src = icon || 'assets/default-icon.svg'; // Use provided icon or default icon
-      cardIcon.alt = title;
-      cardIcon.className = 'w-8 h-8 mr-4 rounded-full flex-shrink-0 card-icon-bg'; // Smaller size and rounded
-
-      // Check if the image URL returns 404 and replace it with the default icon if it does
-      cardIcon.onerror = () => {
-        cardIcon.src = 'assets/default-icon.svg';
-      };
 
       const cardContent = document.createElement('div');
       cardContent.className = 'flex flex-col overflow-hidden'; // Ensure the content is hidden if too long
@@ -358,7 +309,6 @@
       cardContent.appendChild(cardTitle);
       cardContent.appendChild(cardUrl); // Add URL paragraph
 
-      card.appendChild(cardIcon);
       card.appendChild(cardContent);
 
       return card;
@@ -376,14 +326,14 @@
 
       const cardIcon = document.createElement('div');
       cardIcon.innerHTML = `
-        <svg viewBox="0 0 100 80" class="folder__svg">
-          <rect x="0" y="0" width="100" height="80" class="folder__back" />
-          <rect x="15" y="8" width="70" height="60" class="paper-1" />
-          <rect x="10" y="18" width="80" height="50" class="paper-2" />
-          <rect x="0" y="10" width="100" height="70" class="folder__front" />
-          <rect x="0" y="10" width="100" height="70" class="folder__front right" />
-        </svg>
-      `;
+    <svg viewBox="0 0 100 80" class="folder__svg">
+        <rect x="0" y="0" width="100" height="80" class="folder__back" />
+        <rect x="15" y="8" width="70" height="60" class="paper-1" />
+        <rect x="10" y="18" width="80" height="50" class="paper-2" />
+        <rect x="0" y="10" width="100" height="70" class="folder__front" />
+        <rect x="0" y="10" width="100" height="70" class="folder__front right" />
+    </svg>
+    `;
       cardIcon.className = 'mb-2';
 
       const cardTitle = document.createElement('h2');
@@ -400,7 +350,7 @@
     function renderNavigation(folders, container, isFirstRender = false, path = []) {
       container.innerHTML = ''; // Clear previous content
       folders.forEach((folder, index) => {
-        if (folder.type === 'folder') {
+        if (folder.type === 'text/x-moz-place-container') {
           const navItem = document.createElement('li');
           navItem.className = 'items-center group flex justify-between gap-x-3 rounded-md p-2 text-gray-700 dark:text-gray-400 hover:text-main-500 hover:bg-gray-50 dark:hover:pintree-bg-gray-800 bg-opacity-50';
 
@@ -555,8 +505,8 @@
       renderBreadcrumbs(path);
 
       // Separate folders and links
-      const folders = data.filter(item => item.type === 'folder');
-      const links = data.filter(item => item.type === 'link').sort((a, b) => b.addDate - a.addDate);
+      const folders = data.filter(item => item.type === 'text/x-moz-place-container');
+      const links = data.filter(item => item.type === 'text/x-moz-place').sort((a, b) => b.addDate - a.addDate);
 
       if (folders.length === 0 && links.length === 0) {
         showNoResultsMessage();
@@ -586,7 +536,7 @@
         const linkSection = document.createElement('div');
         linkSection.className = 'grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 2xl:grid-cols-6 gap-6';
         links.forEach(link => {
-          const card = createCard(link.title, link.url, link.icon);
+          const card = createCard(link.title, link.uri, link.icon);
           linkSection.appendChild(card);
         });
         container.appendChild(linkSection);
@@ -597,11 +547,11 @@
     }
 
     // Fetch and render data
-    fetch('json/pintree.json')
+    fetch('json/data.json')
       .then(response => response.json())
       .then(data => {
         // Use the first layer of the data directly
-        const firstLayer = data;
+        const firstLayer = data.children;
         // Render navigation using the first layer of data
         renderNavigation(firstLayer, document.getElementById('navigation'), true);
         // Render bookmarks using the first layer of data, starting from the Bookmark
@@ -660,14 +610,14 @@
 
     document.addEventListener('DOMContentLoaded', () => {
       // Fetch and render data
-      fetch('json/pintree.json')
+      fetch('json/data.json')
         .then(response => response.json())
         .then(data => {
           // Hide loading spinner
           document.getElementById('loading-spinner').style.display = 'none';
 
           // Use the first layer of the data directly
-          const firstLayer = data;
+          const firstLayer = data.children;
           // Render navigation using the first layer of data
           renderNavigation(firstLayer, document.getElementById('navigation'), true);
           // Render bookmarks using the first layer of data, starting from the Bookmark
